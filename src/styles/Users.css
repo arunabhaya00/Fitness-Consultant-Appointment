@@ -1,0 +1,55 @@
+
+.text-center {
+  text-align: center;
+}
+
+
+.m-2 {
+  margin: 20px 0;
+}
+
+
+.ant-table {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.ant-table,
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  background-color: transparent;
+  
+}
+
+
+.btn {
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.background-image3 {
+    background-image: url('../assets/jump.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 87vh; 
+  }
+  
+
+.btn-secondary {
+    background-color: #6c757d;
+  color: white;
+}
+
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+
+.d-flex > * {
+  margin-right: 8px;
+}

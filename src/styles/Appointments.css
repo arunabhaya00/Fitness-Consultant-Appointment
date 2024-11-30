@@ -1,0 +1,36 @@
+/* Appointments.css */
+
+.transparent-table {
+  background-color: transparent;
+}
+
+.transparent-table .ant-table-tbody > tr > td,
+.transparent-table .ant-table-thead > tr > th {
+  background-color: rgba(255, 255, 255, 0);
+  border-color: rgba(255, 255, 255, 0.132);
+  color: #fff;
+}
+
+.transparent-table .ant-table-tbody > tr > td:hover,
+.transparent-table .ant-table-thead > tr > th:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.transparent-table .ant-table-tbody > tr.ant-table-row-selected > td,
+.transparent-table .ant-table-thead > tr.ant-table-row-selected > th {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.transparent-table .ant-table-tbody > tr > td.ant-table-row-selected:hover,
+.transparent-table .ant-table-thead > tr > th.ant-table-row-selected:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+.background-image6{
+  background-image: url('../assets/dumbel.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 87vh; 
+}

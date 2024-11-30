@@ -1,0 +1,41 @@
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+ 
+  .form-item {
+    margin-bottom: 15px;
+  }
+  
+ 
+  .form-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  .form-btn:hover {
+    background-color: #555;
+  }
+  
+  .background-image8{
+    background-image: url('../assets/red.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 87vh; 
+  }
+  
+
+  

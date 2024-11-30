@@ -1,0 +1,65 @@
+
+.text-center {
+  text-align: center;
+}
+
+.m-2 {
+  margin: 8px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  
+}
+
+.btn-dark {
+  background-color: #343a40;
+ 
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.transparent-table .ant-table {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.transparent-table .ant-table-thead > tr > th {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff; 
+}
+
+.transparent-table .ant-table-tbody > tr > td {
+  background-color: rgba(255, 255, 255, 0);
+  color: #ffffff; 
+  border-bottom:none;
+  
+}
+
+
+
+.background-image {
+  background-image: url('../assets/video-bg.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 87vh; 
+}
+
+
+
+
+

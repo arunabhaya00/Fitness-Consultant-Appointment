@@ -1,0 +1,27 @@
+.background-image4 {
+    background-image: url('../assets/wallpp.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 87vh; 
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  .card-text {
+    cursor: pointer;
+  }
+  
+  .text-primary {
+    color: #ffffff; 
+  }

@@ -1,0 +1,52 @@
+.homepage-background {
+  height: 85vh;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.097); 
+  color: #ffffff; 
+}
+
+.background-image1 {
+  background-image: url('../assets/wallp.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 87vh; 
+}
+
+.text-center {
+  text-align: center;
+}
+
+.search-bar {
+  position: absolute;
+  top: 110px;
+  right: 20px;
+}
+
+.search-bar input {
+  width: 200px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.search-bar input::placeholder {
+  color: #999;
+}
+
+.search-bar button {
+  background-color: #000000; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #000000; 
+}
